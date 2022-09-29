@@ -2733,7 +2733,7 @@ input, select, textarea {
 		border: 0;
 		border-radius: 0;
 		box-shadow: inset 0 0 0 2px #ffffff;
-		color: #888888;
+		color: #555555;
 		cursor: pointer;
 		display: inline-block;
 		font-size: 0.8em;
@@ -3010,7 +3010,6 @@ input, select, textarea {
 				top: 0;
 				width: 100%;
 				z-index: 4;
-
 			}
 
 			.tiles article:before {
@@ -3027,10 +3026,11 @@ input, select, textarea {
 				position: absolute;
 				width: 100%;
 				z-index: 2;
+
 			}
 
 			.tiles article:after {
-				background-color: rgba(94, 126, 214, 0.3);
+				background-color: rgba(72, 153, 228, 0.3);
 				content: '';
 				display: block;
 				height: 100%;
@@ -3043,6 +3043,7 @@ input, select, textarea {
 
 			.tiles article:hover:before {
 				opacity: 0.1;
+
 			}
 
 			.tiles article.is-transitioning {
@@ -3877,9 +3878,26 @@ input, select, textarea {
 						vertical-align:middle;
 						width: 2em;
 						height: 1.4em;
-						background-color: rgb(218, 218, 218);
+						background-color: rgba(218, 218, 218, 0.5);
 
 					}
+					
+
+						/* #header nav a[href="#menu"]:before, #header nav a[href="#menu"]:after {
+							background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='32' viewBox='0 0 24 32' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 2px%3B stroke: %23ffffff%3B %7D%3C/style%3E%3Cline x1='0' y1='11' x2='24' y2='11' /%3E%3Cline x1='0' y1='21' x2='24' y2='21' /%3E%3Cline x1='0' y1='16' x2='24' y2='16' /%3E%3C/svg%3E");
+							background-position: center;
+							background-repeat: no-repeat;
+							background-size: 24px 32px;
+							content: '';
+							display: block;
+							height: 100%;
+							position: absolute;
+							right: 1.5em;
+							top: 0;
+							vertical-align:middle;
+							width: 24px;
+						} */
+
 
 					#header nav a[href="#menu"]:after {
 						-moz-transition: opacity 0.2s ease-in-out;
@@ -3888,7 +3906,7 @@ input, select, textarea {
 						transition: opacity 0.2s ease-in-out;
 						/* background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='32' viewBox='0 0 24 32' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 2px%3B stroke: %239bf1ff%3B %7D%3C/style%3E%3Cline x1='0' y1='11' x2='24' y2='11' /%3E%3Cline x1='0' y1='21' x2='24' y2='21' /%3E%3Cline x1='0' y1='16' x2='24' y2='16' /%3E%3C/svg%3E"); */
 						opacity: 0;
-						background-color: rgb(114, 114, 114);
+						background-color: rgba(114, 114, 114, 0.5);
 						z-index: 1;
 
 					}
@@ -3931,7 +3949,6 @@ input, select, textarea {
 			background-color: transparent;
 			box-shadow: none;
 			position: absolute;
-
 		}
 
 			#header.alt.style1 .logo strong {
@@ -3993,6 +4010,7 @@ input, select, textarea {
 			#header {
 				height: 2.75em;
 				line-height: 2.75em;
+
 			}
 
 				#header .logo {
@@ -4005,6 +4023,7 @@ input, select, textarea {
 
 					#header nav a:last-child {
 						padding-right: 1em;
+						
 					}
 
 					#header nav a[href="#menu"] {
@@ -4021,11 +4040,14 @@ input, select, textarea {
 							left: 1.7em;
 							top: -0.5em;
 
+
 						}
 
 							#header nav a[href="#menu"]:last-child:before, #header nav a[href="#menu"]:last-child:after {
 								right: 1.5em;
 							}
+
+							
 
 		}
 
