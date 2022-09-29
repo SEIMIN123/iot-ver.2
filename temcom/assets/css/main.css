@@ -2970,7 +2970,7 @@ input, select, textarea {
 			background-size: cover;
 			cursor: default;
 			width: 20%;
-			min-height: 15em;
+			min-height: 5em;
 			max-height: 20em;
 			overflow: hidden;
 			position: relative;
@@ -3112,12 +3112,11 @@ input, select, textarea {
 
 			.tiles article {
 				padding: 5em 3em 2em 3em ;
-				height: 10%;
 				max-height: 30em;
 				min-height: 20em;
 				background-size: cover;
 				background-position: center center;
-				margin: 0.5em;
+				margin: 1.5em;
 				position: relative;
 				margin-left: -9em;
 				border-radius: 30px;
@@ -3156,8 +3155,8 @@ input, select, textarea {
 			}
 
 				.tiles article {
-					height: 20em;
 					width: 100% !important;
+					height: 15em;
 				}
 
 		}
@@ -4323,6 +4322,9 @@ input, select, textarea {
 
 			#main > *:first-child {
 				border-top: 0;
+				margin-top: 4em;
+				margin-left: 6em;
+				max-width: 65em;
 			}
 
 			#main > * > .inner {
@@ -4338,6 +4340,13 @@ input, select, textarea {
 					#main > * > .inner {
 						padding: 3em 0 1em 0 ;
 						width: calc(100% - 3em);
+					}
+
+					#main > *:first-child {
+						border-top: 0;
+						margin-top: 3em;
+						margin-left: 0em;
+						max-width: 65em;
 					}
 
 				}
