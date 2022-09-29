@@ -8,10 +8,13 @@
 	<head>
 		<title>HANBAT IOT</title>
 		<meta charset="utf-8" />
-		<!-- <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" /> -->
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="./assets/css/main.css" />
+		<noscript>
+			<link rel="stylesheet" href="./assets/css/noscript.css" /></noscript>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
 	</head>
 	<body class="is-preload">
 
@@ -19,18 +22,35 @@
 			<div id="wrapper">
 
 				<!-- Header -->
-				<header id="header">
+				<header id="header" class="alt">
 					<a href="../index.html" class="logo"><strong>HANBAT</strong> <span>IOT</span></a>
 					<nav>
 						<a href="#menu"></a>
 					</nav>
 				</header>
 
+								<!-- Banner -->
+								<section id="banner" class="major">
+									<div class="inner">
+										<header class="major">
+											<h1 style="color: rgb(114, 114, 114);"> 기업정보
+											</h1>
+										</header>
+										<div class="content">
+											<p style="color: rgb(114, 114, 114);"> 사업영역 / 시스템솔루션 / 비전 
+												</p>
+											<!-- <ul class="actions">
+												<li><a href="#two" class="button scrolly" style="color: rgb(114, 114, 114);">둘러보기</a></li>
+											</ul> -->
+										</div>
+									</div>
+								</section>
+
 				<!-- Menu -->
 				<nav id="menu">
 					<ul class="links">
 						<li><a href="../index.html" >Home</a></li>
-						<li><a href="../temcom/iot-3.html">제품</a></li>
+						<li><a href="../temcom/iot-2-1.html">기업정보</a></li>
 						<li><a href="../temcom/iot-5.html">미디어</a></li>
 						<li><a href="../temcom/iot-4.html">공지사항</a></li>
 					</ul>
@@ -151,22 +171,22 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script>
-				const up = document.querySelector('.up');
-				up.addEventListener('click', () => {
-				    scrollTo({
-				        top: 0,
-				        behavior: "smooth"
-				    });
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script>
+			const up = document.querySelector('.up');
+			up.addEventListener('click', () => {
+				scrollTo({
+					top: 0,
+					behavior: "smooth"
 				});
-			</script>
+			});
+		</script>
 
 	</body>
 </html>
