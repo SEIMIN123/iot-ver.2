@@ -1,0 +1,227 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>HANBAT IOT</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="./assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="./assets/css/noscript.css" /></noscript>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+					<header id="header" class="alt style2">
+						<a href="../index.html" class="logo"><strong>HANBAT</strong> <span>IOT</span></a>
+						<nav>
+							<a href="#menu"></a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="../index.html">Home</a></li>
+							<li><a href="../temcom/iot-3.html">제품</a></li>
+							<li><a href="../temcom/iot-5.html">홍보</a></li>
+							<li><a href="../temcom/iot-4.html">지원</a></li>
+						</ul>
+						<ul class="actions stacked">
+							<li><a href="#" class="button primary fit">LOGIN</a></li>
+							<li><a href="#" class="button fit">SIGN UP</a></li>
+						</ul>
+					</nav>
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<img src="images/pic07.jpg" alt="" />
+							</span>
+							<header class="major">
+								<h1>기업정보</h1>
+							</header>
+							<div class="content">
+								<p>사업영역 / 비전 / 기술</p>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h2>축산업의 미래를 바라봅니다.</h2>
+									</header>
+									<p>AI 기술 딥러닝을 적용하여 계란 AI 품질검사 및 제품 카운팅부터 AI 영상 인식, 가축 방역관리, 지능형 축사관리, HACCP 관리와 <br>생산 자동화 로봇까지 관리가 가능한 기술을 개발하고 있습니다.</p>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="spotlights">
+								<section>
+									<a href="iot-2-1.html" class="image">
+										<img src="images/business.jpg" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>사업영역</h3>
+											</header>
+											<p>인공지능(AI), 빅데이터 기술을 활용한 혁신적이고 창의적인 서비스 및 시스템을 개발하여, 농가의 문제를 함께 하고 <br>가축의 질병문제와 안전문제 해결을 위한 솔루션 개발로 질병의 예방 및 피해확산 방지에  앞장서겠습니다.
+											</p>
+											<ul class="actions">
+												<li><a href="iot-2-1.html" class="button">Learn more</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a href="iot-2-2.html" class="image">
+										<img src="images/vision.jpg" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>비전</h3>
+											</header>
+											<p>빅데이터 분석,인공지능 기술을 활용한
+												양계농장의 체계적인 관리를 통해
+												생산성 향상과 농가의 소득 증대에 기여하고
+												<br>소비자 먹거리 안전문제 해결에 앞장섭니다.
+											</p>
+											<ul class="actions">
+												<li><a href="iot-2-2.html" class="button">Learn more</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a href="iot-2-3.html" class="image">
+										<img src="./images/teq.jpg" alt="" data-position="25% 25%" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>기술</h3>
+											</header>
+											<p>웹 기반 솔루션 개발 및 플랫폼 개발 / 서버 구축 및 시스템 구축 / MCU 기반 환경 제어 컨트롤러 개발<br> RTOS 임베디드 S/W 개발 / RDMS 구축 및 성능 튜닝 기술</p>
+											<ul class="actions">
+												<li><a href="iot-2-3.html" class="button">Learn more</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+							</section>
+
+					</div>
+
+				<!-- Contact
+					<section id="contact">
+						<div class="inner">
+							<section>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="6"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="SUMMIT" class="primary" /></li>
+										<li><input type="reset" value="CLEAR" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="#">jjhcms@daum.net</a>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-phone"></span>
+										<h3>TEL.</h3>
+										<span>(+82) 042-931-9307
+										</span>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Address</h3>
+										<span>대전광역시 동구 계족로 151, 지식산업센터</span>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section> -->
+
+				<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+						<ul class="icons">
+							<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+							<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+							<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+							<li class="up"><a class="icon alt fa-arrow-alt-circle-up"><span class="label"></span></a></li>
+						</ul>
+						<ul class="copyright">
+							<li>TEL : +82 042-931-9307 / FAX : +82 042-931-9307 / E-Mail : jjhcms@daum.net
+								<br>Copyright 2018 © hanbat iot., Co Ltd. All rights reserved.</a></li>
+						</ul>
+					</div>
+
+					<div id="up">
+						<i class="fa-sharp fa-solid fa-circle-chevron-up fa-2x"></i>
+					</div>
+				</footer>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script>
+				const up = document.querySelector('.up');
+				up.addEventListener('click', () => {
+				    scrollTo({
+				        top: 0,
+				        behavior: "smooth"
+				    });
+				});
+			</script>
+
+	</body>
+</html>
