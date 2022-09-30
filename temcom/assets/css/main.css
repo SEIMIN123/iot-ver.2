@@ -2975,7 +2975,7 @@ input, select, textarea {
 			overflow: hidden;
 			position: relative;
 			margin: 0.3em;
-			border-radius: 10px;
+			border-radius: 5px;
 			box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.5);
 			left: 9em;
 			
@@ -3120,8 +3120,8 @@ input, select, textarea {
 				-ms-flex-wrap: wrap;
 				flex-wrap: wrap;
 				border-top: 0 !important;
-				width: 24em;
-				right: 16.2em;
+				width: 100%;
+				right: 16.3em;
 				position: relative;
 				bottom: 2em;
 			}
@@ -3130,7 +3130,6 @@ input, select, textarea {
 				background-size: cover;
 				background-position: center center;
 				margin-top: 1em;
-				height: 5vh;
 
 			}
 
