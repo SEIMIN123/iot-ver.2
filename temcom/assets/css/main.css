@@ -2944,7 +2944,9 @@ input, select, textarea {
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
 		border-top: 0 !important;
-		width: 100%;
+		width: 63em;
+		margin-top: 5em;
+		margin-left: 7em;
 	}
 
 		.tiles + * {
@@ -2970,8 +2972,6 @@ input, select, textarea {
 			background-size: cover;
 			cursor: default;
 			width: 20%;
-			min-height: 15em;
-			max-height: 20em;
 			overflow: hidden;
 			position: relative;
 			margin: 0.3em;
@@ -3110,17 +3110,28 @@ input, select, textarea {
 
 		@media screen and (max-width: 1280px) {
 
+			.tiles {
+				display: -moz-flex;
+				display: -webkit-flex;
+				display: -ms-flex;
+				display: flex;
+				-moz-flex-wrap: wrap;
+				-webkit-flex-wrap: wrap;
+				-ms-flex-wrap: wrap;
+				flex-wrap: wrap;
+				border-top: 0 !important;
+				width: 24em;
+				right: 16.2em;
+				position: relative;
+				bottom: 2em;
+			}
+
 			.tiles article {
-				padding: 5em 3em 2em 3em ;
-				height: 10%;
-				max-height: 30em;
-				min-height: 20em;
 				background-size: cover;
 				background-position: center center;
-				margin: 0.5em;
-				position: relative;
-				margin-left: -9em;
-				border-radius: 30px;
+				margin-top: 1em;
+				height: 5vh;
+
 			}
 
 		}
@@ -3128,7 +3139,7 @@ input, select, textarea {
 		@media screen and (max-width: 980px) {
 
 			.tiles article {
-				width: 10% !important;
+				width: 50% !important;
 
 			}
 
@@ -3299,6 +3310,8 @@ input, select, textarea {
 				table {
 					border-collapse: collapse;
 					border-spacing: 0;
+					position: relative;
+					top: -4em;
 				  }
 				  section.notice {
 					padding: 10px 0;
@@ -4323,9 +4336,9 @@ input, select, textarea {
 
 			#main > *:first-child {
 				border-top: 0;
-				margin-top: 3em;
+				/* margin-top: 3em;
 				margin-left: 6em;
-				max-width: 65em;
+				max-width: 65em; */
 			}
 
 			#main > * > .inner {
@@ -4341,13 +4354,6 @@ input, select, textarea {
 					#main > * > .inner {
 						padding: 3em 0 1em 0 ;
 						width: calc(100% - 3em);
-					}
-
-					#main > *:first-child {
-						border-top: 0;
-						margin-top: 3em;
-						margin-left: 0em;
-						max-width: 65em;
 					}
 
 				}
