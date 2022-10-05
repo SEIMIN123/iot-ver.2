@@ -3392,14 +3392,20 @@ input, select, textarea {
 				  .board-table .th-num {
 					width: 100px;
 					text-align: center;
+					color: #333;
+
 				  }
 				  
 				  .board-table .th-date {
 					width: 200px;
+					color: #333;
+
 				  }
 				  
 				  .board-table th, .board-table td {
 					padding: 14px 0;
+					color: #333;
+
 				  }
 				  
 				  .board-table tbody td {
