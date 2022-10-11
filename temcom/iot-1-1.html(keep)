@@ -21,30 +21,30 @@
 					</header>
 
 				<!-- Menu -->
-				<nav id="menu">
-					<ul class="links">
-						<li><a href="../index.html">Home</a></li>
-						<li><a href="../temcom/iot-2-1.html">기업정보</a></li>
-						<li><a href="../temcom/iot-3.html">제품</a></li>
-						<li><a href="../temcom/iot-4.html">공지사항</a></li>
-					</ul>
-					<ul class="actions stacked">
-						<li><a href="../temcom/iot-6.html" class="button fit" style="color: #fff;">LOACTION</a></li>
-						<li><a href="#contact" class="button primary fit">CONTACT</a></li>
-					</ul>
-				</nav>
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="../index.html">Home</a></li>
+							<li><a href="../temcom/iot-1.html">기업정보</a></li>
+							<li><a href="../temcom/iot-2.html">제품</a></li>
+							<li><a href="../temcom/iot-3.html">지원</a></li>
+						</ul>
+						<ul class="actions stacked">
+							<li><a href="#" class="button primary fit">CONNECT</a></li>
+							<li><a href="#" class="button fit">LOACTION</a></li>
+						</ul>
+					</nav>
 
 				<!-- Main -->
-					<div id="main" class="alt" style="border: 1px solid #ccc;">
+					<div id="main" class="alt">
 
 						<!-- One -->
 							<section id="one">
 								<div class="inner">
 									<header class="major">
-										<h1 style="color: rgb(131, 131, 131);">CEO 인사말</h1>
+										<h1>CEO 인사말</h1>
 									</header>
 									<span class="iot-1"><img class="iot-1-1" src="./images/ceo-1.png" alt="" /></span>
-									<h5 style="font-size: 1vw; color: rgb(131, 131, 131);">안녕하십니까. <br>(주)한밭아이오티 대표 정진해입니다.<br><br>(주)한밭아이오티는 양계장 통합 이력 관리시스템과 머신비전, 인공지능 알고리즘을 활용한 <br>AI 계란 검사 시스템을 국내 최초로 개발하여 농장에 보급하고 있습니다.<br><br>인공지능과 빅데이터를 기반으로 한 기술개발과 연구를 통해 농장의 생산성과 소득을 높이는 <br>다양한 기술을 개발하여 축산농가에 힘을 주는 기업으로써 소비자의 식품안전 문제에 앞장서겠습니다.</p>
+									<p>안녕하십니까. <br>(주)한밭아이오티 대표 정진해입니다.<br><br>(주)한밭아이오티는 양계장 통합이력관리시스템과 머신비전, 인공지능 알고리즘을 활용한 AI 계란 검사 시스템을 <br>국내 최초로 개발하여 농장에 보급하고 있습니다. <br>인공지능과 빅데이터를 기반으로 한 기술개발과 연구를 통해 농장의 생산성과 소득을 높이는 <br>다양한 기술을 개발하여 축산농가에 힘을 주는 기업으로서 소비자의 식품안전 문제에 앞장서겠습니다.</p>
 								</div>
 							</section>
 
@@ -53,7 +53,7 @@
 				<!-- Contact -->
 					<section id="contact">
 						<div class="inner">
-							<!-- <section>
+							<section>
 								<form method="post" action="#">
 									<div class="fields">
 										<div class="field half">
@@ -98,7 +98,7 @@
 										<span>대전광역시 동구 계족로 151, 지식산업센터</span>
 									</div>
 								</section>
-							</section> -->
+							</section>
 						</div>
 					</section>
 
